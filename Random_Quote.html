@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="keywords, separated, by, commas" />
+		<meta name="description" content="Luciano Britis" />
+		<meta name="Revisit-After" content="30 Days"/>
+		<meta name="robots" content="all, index"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Build a Random Quote Machine</title>
+		<style type="text/css" media="all">@import url(css/Random_Quote.css);</style>
+		<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Cardo:400,400italic|Radley|Tangerine" rel="stylesheet">
+		
+	</head>
+	<body>
+		<h1>Random Quotes Rewrittens</h1>
+			<p> These are some of my favorite quotes that I had collected during the development period of this page.</p><br>
+			<div  id="box">
+				<p class="citacao active-random ">&ldquo;A successful man is one who can lay a firm foundation with the bricks others have thrown at him..&rdquo; </p><br>
+				<cite class="autor">David Brinkley.</cite> 
+			</div>
+			<!-- id usado em js -->
+			<button id="nova-citacao">New Quote</button>
+			<!-- id usado em js -->
+			<br>
+			<p>Another paragraph, whith equaly exciting text; in fact, it&rsquo;s
+			so exciting, we're not sure it&rsquo;s cool too share.</p>
+			<!--Share button code -->
+			<a target='_blank'class='twitter-button'href='https://twitter.com/intent/tweet?text=A successful man is one who can lay a firm foundation with the bricks others have thrown at him. David Brinkley.'><img src="http://www.eltonefernando.com/img/home/twitter.png" alt="share" title="Share"> </a>
+			<!--Share button code -->
+			<footer class="center">
+				<p> Luciano Britis &copy; 2016</p>
+			</footer> 
+			<!-- Load twitterSDK for JavaScript -->
+			<script>!function(d,s,id){
+				var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+					if(!d.getElementById(id)){
+							js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);
+					}
+				}
+				(document, 'script', 'twitter-wjs');
+			</script>
+			<!-- Load twitterSDK for JavaScript -->
+		<script src="js/app.js" type="text/javascript"></script>
+		<!--jQuery-->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
+
+
+
+   

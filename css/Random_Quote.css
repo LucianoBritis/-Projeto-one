@@ -1,0 +1,110 @@
+/* ---------------1. defaults---------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+  text-align: center;
+  width: 600px; 
+  margin: 0px auto;
+  background-color: #cdcdcd;
+  font-family: 'Tangerine', serif;
+  overflow:hidden;
+  background: url(http://subtlepatterns.com/patterns/halftone.png);
+}
+/* styling wrapper*/
+#box {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	width: 400px;
+	height: auto;
+	border: 3px solid white;
+	padding: 18px 30px;
+	background: #ffffff;
+	margin: 0 auto;
+	text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+  }
+/* cantos arredondados distintos*/
+#box {
+	-moz-border-radius-top-left: 10px;
+	-webkit-border-top-left-radius: 10px;
+ 	border-top-left-radius: 10px;
+	-moz-border-radius-top-right: 26px;
+	-webkit-border-top-right-radius: 26px;
+	border-top-right-radius: 26px;
+	-moz-border-radius-bottom-right: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottom-left: 26px;
+	-webkit-border-bottom-left-radius: 26px;
+	border-bottom-left-radius: 26px;}
+/* cantos arredondados distintos*/
+/* Sombras*/
+#box {
+	box-shadow: #000 2px 2px 1px;
+	-webkit-box-shadow:#000 2px 2px 1px;
+	-moz-box-shadow:#000 2px 2px 1px;
+/* Sombras*/
+}
+#box > p: first-child {
+	text-indent:30px;
+}
+#box > p {
+	text-align:justify;
+}
+h1 {
+    text-shadow: 4px 4px 4px #aaa;
+    margin: 10px auto;
+    font-size: 4em;
+    color: #333;
+}
+p {
+  font-family: 'Radley', serif;
+  font-size: 1.2em;
+  text-align: left;
+}
+button {
+   	width: 150px;
+	height:50px;
+	background-color:#66CDAA;
+	margin: 20px auto;	 
+	border: 2px solid #008B8B;
+	border-radius: 15px;
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+button {
+	padding: 10px 15px;
+	font-family: 'Tangerine', serif;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 35px;
+	color: #000;
+ 	cursor:pointer;
+}
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.citacao {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.autor {
+	font-size: 1.7em;
+}
+
+.active-random {
+    display: block;
+}
+
+img {
+  width:50px;
+  height:50px;
+}
+footer {
+  margin-top:50px;
+  padding: 20% 30% ;
+  text-align: center; 
+}
+
